@@ -1,0 +1,205 @@
+/* ======================================================
+   RESET
+====================================================== */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f4f6f8;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* ======================================================
+   CONTAINER
+====================================================== */
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    margin: auto;
+}
+
+/* ======================================================
+   HEADER
+====================================================== */
+
+header {
+    background: #1e3a8a;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 42px;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+/* ======================================================
+   MENU
+====================================================== */
+
+nav ul {
+    list-style: none;
+}
+    
+nav ul li {
+    display: inline-block;
+    margin: 0 18px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* ======================================================
+   HERO
+====================================================== */
+
+.hero {
+    background: white;
+    text-align: center;
+    padding: 70px 20px;
+}
+
+.hero h2 {
+    font-size: 34px;
+    color: #1e3a8a;
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 35px;
+}
+
+.botao {
+    display: inline-block;
+    background: #22c55e;
+    color: white;
+    padding: 14px 28px;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.botao:hover {
+    background: #16a34a;
+}
+
+/* ======================================================
+   SEÇÕES
+====================================================== */
+
+section {
+    padding: 60px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: #1e3a8a;
+    margin-bottom: 35px;
+    font-size: 32px;
+}
+
+section p {
+    margin-bottom: 15px;
+}
+
+/* ======================================================
+   CARDS
+====================================================== */
+
+.cards {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background: white;
+    width: 300px;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,.08);
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    color: #2563eb;
+    margin-bottom: 15px;
+}
+
+/* ======================================================
+   CONTATO
+====================================================== */
+
+#contato {
+    background: #eef3ff;
+}
+
+#contato p {
+    text-align: center;
+    font-size: 18px;
+}
+
+/* ======================================================
+   FOOTER
+====================================================== */
+
+footer {
+    background: #1e3a8a;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+/* ======================================================
+   RESPONSIVIDADE
+====================================================== */
+
+@media (max-width: 768px) {
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    .hero h2 {
+        font-size: 28px;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 12px 0;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+}
